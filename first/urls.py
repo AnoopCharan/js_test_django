@@ -5,4 +5,5 @@ app_name='first'
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name='first/1.html')),
+    path('calculator', TemplateView.as_view(template_name='first/calculator.html'))
 ]
